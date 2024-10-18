@@ -8,10 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      backgroundImage: {
+        'custom-bg': "url('https://png.pngtree.com/thumb_back/fh260/background/20230110/pngtree-dark-green-gradient-banner-background-image_1538714.jpg')",
+      }
     },
   },
   plugins: [],
